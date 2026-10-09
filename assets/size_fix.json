@@ -1,0 +1,22 @@
+{
+  "act_bob": 1.0,
+  "act_doze": 1.0,
+  "act_jump": 1.0,
+  "act_nod": 1.0,
+  "act_spin": 1.0,
+  "act_squat": 1.0,
+  "act_sway": 1.0,
+  "act_tilt": 1.0,
+  "act_wave": 1.0,
+  "asleep": 1.0,
+  "cheer": 1.052,
+  "falling": 1.345,
+  "gasp": 1.0,
+  "gaze_left": 1.0,
+  "gaze_right": 1.0,
+  "gaze_up": 1.0,
+  "held": 1.168,
+  "landing": 1.127,
+  "shy": 1.0,
+  "waking": 1.0
+}

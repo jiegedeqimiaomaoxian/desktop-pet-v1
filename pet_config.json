@@ -1,0 +1,15 @@
+{
+  "api_key": "sk-c330423addda4973978c54a5855af29d",
+  "text_file": "dialogue.txt",
+  "balance_template": "💰 DeepSeek 余额\n总额 {total_balance} {currency}\n赠送 {granted_balance}｜充值 {topped_up_balance}",
+  "click_reset_seconds": 10.0,
+  "always_on_top": true,
+  "scale": 1.0,
+  "pos": null,
+  "gaze": true,
+  "physics": true,
+  "auto_sleep_seconds": 90.0,
+  "auto_emote_seconds": 45.0,
+  "shadow": true,
+  "preload_keep": 0
+}

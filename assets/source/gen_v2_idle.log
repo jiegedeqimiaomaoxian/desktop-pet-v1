@@ -1,0 +1,37 @@
+[temp] 临时目录 -> F:\DeepSeek Work Part\desktop-pet-v2\assets\source\_tmp
+画风套装：pet    计划生成 1 个动作：idle
+规格：608x1088 / 56 帧 = 2.33s @ 24fps / 4 步 / 抠像 inner=12.0 outer=30.0
+打包帧率：24fps（= 源视频原生帧率，一帧不丢）
+逐帧稳定：关（保留全部动作幅度，无对齐噪声）
+动作名前缀：''（直接覆盖同名动作）
+参考图：assets\source\character_sheet.png
+[comfy] 服务在线：cuda:0 NVIDIA GeForce RTX 3070 Laptop GPU : cudaMallocAsync 显存空闲 0.7G
+[comfy] 参考图已上传：input/pet_charsheet.png（1287 KB）
+
+=== [1/1] idle · 待机·呼吸眨眼 ===
+  [idle] 提交 ComfyUI（608x1088 / 56 帧 = 2.33s / 4 步 / seed=20240918）…
+  [idle] 生成中… 0s
+  [idle] 生成中… 60s
+  [idle] 生成中… 120s
+  [idle] 生成中… 180s
+  [idle] 出片完成，用时 192s -> assets\source\video_cache\idle.mp4（0.6 MB）
+  [idle] 失败：FileNotFoundError: [Errno 2] No such file or directory: 'F:\\DeepSeek Work Part\\desktop-pet-v2\\assets\\pet_body.png'
+  [idle] 失败：RuntimeError: 后处理失败（退出码 1）：服务商：本地视频文件（Key 来源：没找到）
+
+计划生成 1 个动作，共约 2 秒素材：
+  · idle   待机·呼吸眨眼  2.33s
+参考单价 $0.0/秒（file）→ 预计 $0.00（≈ ¥0.00）
+备注：不消耗任何额度
+
+  [idle] 失败：FileNotFoundError: [Errno 2] No such file or directory: 'F:\\DeepSeek Work Part\\desktop-pet-v2\\assets\\pet_body.png'
+  （加 --continue-on-error 可以跳过失败继续做下一个）
+
+动作清单：assets\actions\library.json
+失败/跳过：idle
+重启桌宠即可看到新动作（右键 → 退出，再双击 启动桌宠.vbs）。
+
+  （继续做下一个）
+
+动作清单：assets\actions\library.json
+失败 1 个：idle
+重启桌宠即可生效（右键 → 退出，再双击 启动桌宠.vbs）。

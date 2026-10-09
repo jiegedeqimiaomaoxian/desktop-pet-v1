@@ -1,0 +1,167 @@
+[temp] 临时目录 -> F:\DeepSeek Work Part\desktop-pet-v2\assets\source\_tmp
+画风套装：pet    计划生成 11 个动作：gaze_left, gaze_right, gaze_up, held, falling, landing, asleep, waking, cheer, shy, gasp
+规格：608x1088 / 56 帧 = 2.33s @ 24fps / 4 步 / 抠像 inner=12.0 outer=30.0
+打包帧率：24fps（= 源视频原生帧率，一帧不丢）
+逐帧稳定：关（保留全部动作幅度，无对齐噪声）
+动作名前缀：''（直接覆盖同名动作）
+参考图：assets\source\character_sheet.png
+[comfy] 服务在线：cuda:0 NVIDIA GeForce RTX 3070 Laptop GPU : cudaMallocAsync 显存空闲 0.7G
+[comfy] 参考图已上传：input/pet_charsheet.png（1287 KB）
+
+=== [1/11] gaze_left · 待机·看向左边 ===
+  [gaze_left] 提交 ComfyUI（608x1088 / 56 帧 = 2.33s / 4 步 / seed=20240918）…
+  [gaze_left] 生成中… 0s
+  [gaze_left] 生成中… 60s
+  [gaze_left] 生成中… 120s
+  [gaze_left] 生成中… 180s
+  [gaze_left] 出片完成，用时 192s -> assets\source\video_cache\gaze_left.mp4（0.6 MB）
+  [gaze_left] 待机·看向左边：2.33s @ 24fps，幕布色 (0, 200, 90)，首帧 assets\source\input_frames\gaze_left_720x1280.png
+  [gaze_left] 使用本地视频 F:\DeepSeek Work Part\desktop-pet-v2\assets\source\video_cache\gaze_left.mp4
+  [gaze_left] 拆出 56 帧，视频 608x1088 @ 24.0fps
+  [gaze_left] 色相抠像（inner=12.0 outer=30.0 min_sat=0.1 污染阈值=10.0）
+  [gaze_left] 去绿幕环境光（强度 0.85）
+  [gaze_left] 已保存 56 帧 -> assets\actions\gaze_left（预览 assets\source\action_preview\gaze_left.gif）
+
+=== [2/11] gaze_right · 待机·看向右边 ===
+  [gaze_right] 提交 ComfyUI（608x1088 / 56 帧 = 2.33s / 4 步 / seed=20240918）…
+  [gaze_right] 生成中… 0s
+  [gaze_right] 生成中… 60s
+  [gaze_right] 生成中… 120s
+  [gaze_right] 生成中… 180s
+  [gaze_right] 出片完成，用时 192s -> assets\source\video_cache\gaze_right.mp4（0.6 MB）
+  [gaze_right] 待机·看向右边：2.33s @ 24fps，幕布色 (0, 200, 90)，首帧 assets\source\input_frames\gaze_right_720x1280.png
+  [gaze_right] 使用本地视频 F:\DeepSeek Work Part\desktop-pet-v2\assets\source\video_cache\gaze_right.mp4
+  [gaze_right] 拆出 56 帧，视频 608x1088 @ 24.0fps
+  [gaze_right] 色相抠像（inner=12.0 outer=30.0 min_sat=0.1 污染阈值=10.0）
+  [gaze_right] 去绿幕环境光（强度 0.85）
+  [gaze_right] 已保存 56 帧 -> assets\actions\gaze_right（预览 assets\source\action_preview\gaze_right.gif）
+
+=== [3/11] gaze_up · 待机·抬头看上面 ===
+  [gaze_up] 提交 ComfyUI（608x1088 / 56 帧 = 2.33s / 4 步 / seed=20240918）…
+  [gaze_up] 生成中… 0s
+  [gaze_up] 生成中… 60s
+  [gaze_up] 生成中… 120s
+  [gaze_up] 生成中… 180s
+  [gaze_up] 出片完成，用时 192s -> assets\source\video_cache\gaze_up.mp4（0.6 MB）
+  [gaze_up] 待机·抬头看上面：2.33s @ 24fps，幕布色 (0, 200, 90)，首帧 assets\source\input_frames\gaze_up_720x1280.png
+  [gaze_up] 使用本地视频 F:\DeepSeek Work Part\desktop-pet-v2\assets\source\video_cache\gaze_up.mp4
+  [gaze_up] 拆出 56 帧，视频 608x1088 @ 24.0fps
+  [gaze_up] 色相抠像（inner=12.0 outer=30.0 min_sat=0.1 污染阈值=10.0）
+  [gaze_up] 去绿幕环境光（强度 0.85）
+  [gaze_up] 已保存 56 帧 -> assets\actions\gaze_up（预览 assets\source\action_preview\gaze_up.gif）
+
+=== [4/11] held · 被拎起来 ===
+  [held] 提交 ComfyUI（608x1088 / 56 帧 = 2.33s / 4 步 / seed=20240918）…
+  [held] 生成中… 0s
+  [held] 生成中… 60s
+  [held] 生成中… 120s
+  [held] 生成中… 180s
+  [held] 出片完成，用时 192s -> assets\source\video_cache\held.mp4（0.8 MB）
+  [held] 被拎起来：2.33s @ 24fps，幕布色 (0, 200, 90)，首帧 assets\source\input_frames\held_720x1280.png
+  [held] 使用本地视频 F:\DeepSeek Work Part\desktop-pet-v2\assets\source\video_cache\held.mp4
+  [held] 拆出 56 帧，视频 608x1088 @ 24.0fps
+  [held] 色相抠像（inner=12.0 outer=30.0 min_sat=0.1 污染阈值=10.0）
+  [held] 去绿幕环境光（强度 0.85）
+  [held] 已保存 56 帧 -> assets\actions\held（预览 assets\source\action_preview\held.gif）
+
+=== [5/11] falling · 下落中 ===
+  [falling] 提交 ComfyUI（608x1088 / 56 帧 = 2.33s / 4 步 / seed=20240918）…
+  [falling] 生成中… 0s
+  [falling] 生成中… 60s
+  [falling] 生成中… 120s
+  [falling] 生成中… 180s
+  [falling] 出片完成，用时 192s -> assets\source\video_cache\falling.mp4（0.7 MB）
+  [falling] 下落中：2.33s @ 24fps，幕布色 (0, 200, 90)，首帧 assets\source\input_frames\falling_720x1280.png
+  [falling] 使用本地视频 F:\DeepSeek Work Part\desktop-pet-v2\assets\source\video_cache\falling.mp4
+  [falling] 拆出 56 帧，视频 608x1088 @ 24.0fps
+  [falling] 色相抠像（inner=12.0 outer=30.0 min_sat=0.1 污染阈值=10.0）
+  [falling] 去绿幕环境光（强度 0.85）
+  [falling] 已保存 56 帧 -> assets\actions\falling（预览 assets\source\action_preview\falling.gif）
+
+=== [6/11] landing · 落地回弹 ===
+  [landing] 提交 ComfyUI（608x1088 / 56 帧 = 2.33s / 4 步 / seed=20240918）…
+  [landing] 生成中… 0s
+  [landing] 生成中… 60s
+  [landing] 生成中… 120s
+  [landing] 生成中… 180s
+  [landing] 出片完成，用时 192s -> assets\source\video_cache\landing.mp4（0.9 MB）
+  [landing] 落地回弹：2.33s @ 24fps，幕布色 (0, 200, 90)，首帧 assets\source\input_frames\landing_720x1280.png
+  [landing] 使用本地视频 F:\DeepSeek Work Part\desktop-pet-v2\assets\source\video_cache\landing.mp4
+  [landing] 拆出 56 帧，视频 608x1088 @ 24.0fps
+  [landing] 色相抠像（inner=12.0 outer=30.0 min_sat=0.1 污染阈值=10.0）
+  [landing] 去绿幕环境光（强度 0.85）
+  [landing] 已保存 56 帧 -> assets\actions\landing（预览 assets\source\action_preview\landing.gif）
+
+=== [7/11] asleep · 睡着了 ===
+  [asleep] 提交 ComfyUI（608x1088 / 56 帧 = 2.33s / 4 步 / seed=20240918）…
+  [asleep] 生成中… 0s
+  [asleep] 生成中… 60s
+  [asleep] 生成中… 120s
+  [asleep] 生成中… 180s
+  [asleep] 出片完成，用时 192s -> assets\source\video_cache\asleep.mp4（0.6 MB）
+  [asleep] 睡着了：2.33s @ 24fps，幕布色 (0, 200, 90)，首帧 assets\source\input_frames\asleep_720x1280.png
+  [asleep] 使用本地视频 F:\DeepSeek Work Part\desktop-pet-v2\assets\source\video_cache\asleep.mp4
+  [asleep] 拆出 56 帧，视频 608x1088 @ 24.0fps
+  [asleep] 色相抠像（inner=12.0 outer=30.0 min_sat=0.1 污染阈值=10.0）
+  [asleep] 去绿幕环境光（强度 0.85）
+  [asleep] 已保存 56 帧 -> assets\actions\asleep（预览 assets\source\action_preview\asleep.gif）
+
+=== [8/11] waking · 惊醒 ===
+  [waking] 提交 ComfyUI（608x1088 / 56 帧 = 2.33s / 4 步 / seed=20240918）…
+  [waking] 生成中… 0s
+  [waking] 生成中… 60s
+  [waking] 生成中… 120s
+  [waking] 生成中… 180s
+  [waking] 出片完成，用时 192s -> assets\source\video_cache\waking.mp4（0.7 MB）
+  [waking] 惊醒：2.33s @ 24fps，幕布色 (0, 200, 90)，首帧 assets\source\input_frames\waking_720x1280.png
+  [waking] 使用本地视频 F:\DeepSeek Work Part\desktop-pet-v2\assets\source\video_cache\waking.mp4
+  [waking] 拆出 56 帧，视频 608x1088 @ 24.0fps
+  [waking] 色相抠像（inner=12.0 outer=30.0 min_sat=0.1 污染阈值=10.0）
+  [waking] 去绿幕环境光（强度 0.85）
+  [waking] 已保存 56 帧 -> assets\actions\waking（预览 assets\source\action_preview\waking.gif）
+
+=== [9/11] cheer · 开心地蹦两下 ===
+  [cheer] 提交 ComfyUI（608x1088 / 56 帧 = 2.33s / 4 步 / seed=20240918）…
+  [cheer] 生成中… 0s
+  [cheer] 生成中… 60s
+  [cheer] 生成中… 120s
+  [cheer] 生成中… 180s
+  [cheer] 出片完成，用时 192s -> assets\source\video_cache\cheer.mp4（1.0 MB）
+  [cheer] 开心地蹦两下：2.33s @ 24fps，幕布色 (0, 200, 90)，首帧 assets\source\input_frames\cheer_720x1280.png
+  [cheer] 使用本地视频 F:\DeepSeek Work Part\desktop-pet-v2\assets\source\video_cache\cheer.mp4
+  [cheer] 拆出 56 帧，视频 608x1088 @ 24.0fps
+  [cheer] 色相抠像（inner=12.0 outer=30.0 min_sat=0.1 污染阈值=10.0）
+  [cheer] 去绿幕环境光（强度 0.85）
+  [cheer] 已保存 56 帧 -> assets\actions\cheer（预览 assets\source\action_preview\cheer.gif）
+
+=== [10/11] shy · 害羞捂脸 ===
+  [shy] 提交 ComfyUI（608x1088 / 56 帧 = 2.33s / 4 步 / seed=20240918）…
+  [shy] 生成中… 0s
+  [shy] 生成中… 60s
+  [shy] 生成中… 120s
+  [shy] 生成中… 180s
+  [shy] 出片完成，用时 192s -> assets\source\video_cache\shy.mp4（0.6 MB）
+  [shy] 害羞捂脸：2.33s @ 24fps，幕布色 (0, 200, 90)，首帧 assets\source\input_frames\shy_720x1280.png
+  [shy] 使用本地视频 F:\DeepSeek Work Part\desktop-pet-v2\assets\source\video_cache\shy.mp4
+  [shy] 拆出 56 帧，视频 608x1088 @ 24.0fps
+  [shy] 色相抠像（inner=12.0 outer=30.0 min_sat=0.1 污染阈值=10.0）
+  [shy] 去绿幕环境光（强度 0.85）
+  [shy] 已保存 56 帧 -> assets\actions\shy（预览 assets\source\action_preview\shy.gif）
+
+=== [11/11] gasp · 吓一跳 ===
+  [gasp] 提交 ComfyUI（608x1088 / 56 帧 = 2.33s / 4 步 / seed=20240918）…
+  [gasp] 生成中… 0s
+  [gasp] 生成中… 60s
+  [gasp] 生成中… 120s
+  [gasp] 生成中… 180s
+  [gasp] 出片完成，用时 192s -> assets\source\video_cache\gasp.mp4（0.7 MB）
+  [gasp] 吓一跳：2.33s @ 24fps，幕布色 (0, 200, 90)，首帧 assets\source\input_frames\gasp_720x1280.png
+  [gasp] 使用本地视频 F:\DeepSeek Work Part\desktop-pet-v2\assets\source\video_cache\gasp.mp4
+  [gasp] 拆出 56 帧，视频 608x1088 @ 24.0fps
+  [gasp] 色相抠像（inner=12.0 outer=30.0 min_sat=0.1 污染阈值=10.0）
+  [gasp] 去绿幕环境光（强度 0.85）
+  [gasp] 已保存 56 帧 -> assets\actions\gasp（预览 assets\source\action_preview\gasp.gif）
+
+动作清单：assets\actions\library.json
+成功 11 个：gaze_left, gaze_right, gaze_up, held, falling, landing, asleep, waking, cheer, shy, gasp
+重启桌宠即可生效（右键 → 退出，再双击 启动桌宠.vbs）。
